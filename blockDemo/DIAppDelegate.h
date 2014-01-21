@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DIFirstViewController.h"
 
 @interface DIAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) DIFirstViewController *firstVC;
 @end

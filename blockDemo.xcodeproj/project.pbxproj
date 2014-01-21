@@ -19,6 +19,8 @@
 		023A8917188E613F002465F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023A88FF188E613F002465F4 /* UIKit.framework */; };
 		023A891F188E613F002465F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 023A891D188E613F002465F4 /* InfoPlist.strings */; };
 		023A8921188E613F002465F4 /* blockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 023A8920188E613F002465F4 /* blockDemoTests.m */; };
+		023A892C188E61E6002465F4 /* DIFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 023A892B188E61E6002465F4 /* DIFirstViewController.m */; };
+		023A892F188E61F5002465F4 /* DISecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 023A892E188E61F5002465F4 /* DISecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		023A891C188E613F002465F4 /* blockDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "blockDemoTests-Info.plist"; sourceTree = "<group>"; };
 		023A891E188E613F002465F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		023A8920188E613F002465F4 /* blockDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blockDemoTests.m; sourceTree = "<group>"; };
+		023A892A188E61E6002465F4 /* DIFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIFirstViewController.h; sourceTree = "<group>"; };
+		023A892B188E61E6002465F4 /* DIFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIFirstViewController.m; sourceTree = "<group>"; };
+		023A892D188E61F5002465F4 /* DISecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DISecondViewController.h; sourceTree = "<group>"; };
+		023A892E188E61F5002465F4 /* DISecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DISecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,10 @@
 				023A890B188E613F002465F4 /* DIAppDelegate.m */,
 				023A890D188E613F002465F4 /* Images.xcassets */,
 				023A8902188E613F002465F4 /* Supporting Files */,
+				023A892A188E61E6002465F4 /* DIFirstViewController.h */,
+				023A892B188E61E6002465F4 /* DIFirstViewController.m */,
+				023A892D188E61F5002465F4 /* DISecondViewController.h */,
+				023A892E188E61F5002465F4 /* DISecondViewController.m */,
 			);
 			path = blockDemo;
 			sourceTree = "<group>";
@@ -240,8 +250,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023A892C188E61E6002465F4 /* DIFirstViewController.m in Sources */,
 				023A8908188E613F002465F4 /* main.m in Sources */,
 				023A890C188E613F002465F4 /* DIAppDelegate.m in Sources */,
+				023A892F188E61F5002465F4 /* DISecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +454,7 @@
 				023A8926188E613F002465F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		023A8927188E613F002465F4 /* Build configuration list for PBXNativeTarget "blockDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +463,7 @@
 				023A8929188E613F002465F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
